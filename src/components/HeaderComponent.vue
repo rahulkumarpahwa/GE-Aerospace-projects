@@ -20,6 +20,9 @@ import { RouterLink } from 'vue-router'
       <li class="bg-[#41b883] py-1 px-2 border rounded-lg text-white hover:bg-white hover:border border-[#41b883] hover:text-[#41b883]">
         <RouterLink to="/second-task">Task Two</RouterLink>
       </li>
+      <li class="bg-[#41b883] py-1 px-2 border rounded-lg text-white hover:bg-white hover:border border-[#41b883] hover:text-[#41b883]">
+        <RouterLink to="/completion">Completion</RouterLink>
+      </li>
     </ul>
   </div>
 </template>
