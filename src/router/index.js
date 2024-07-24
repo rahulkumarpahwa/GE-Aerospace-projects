@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+// import TaskOne from '@/components/TaskOne.vue'
+// import TaskTwo from '@/components/TaskTwo.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +9,18 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView,
+      //  I am commenting the two routes here on 24-7-24, i want you to have this thing when we click it must scroll to that component.
+      // children: [
+      //   {
+      //     path: '#one',
+      //     component: TaskOne
+      //   },
+      //   {
+      //     path: '#two',
+      //     component: TaskTwo
+      //   }
+      // ]
     },
     {
       path: '/about',
